@@ -2,8 +2,12 @@
     margin:0;
     padding: 0;
 }
+body{
+    background-color: rgb(224, 220, 220);
+}
 nav{
     height: 80px;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -90,4 +94,53 @@ background-color:#1a7c43;
 }
 .banner .container .btn-SeeW:hover{
     background-color: rgb(94, 117, 94);
+}
+
+/* common class for container box */
+.container-box{
+    width: 85%;
+    margin: 0  auto;
+}
+
+.container-box .note-text{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.container-box .note-text h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+.container-box .note-text p{
+    font-size: 17px;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.726);
+}
+.cards{
+    margin: 50px 0 80px 0;
+    display: flex;
+    gap: 30px;
+}
+.cards div img{
+    background-color: red;
+    padding: 5px 5px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cards div h2{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.cards div{
+    width: 260px;
+    height: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.288);
+}
+.cards div:hover{
+    background: #8decb5;
 }
