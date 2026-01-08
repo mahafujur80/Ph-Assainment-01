@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav div ul{
+    display: flex;
+    list-style: none;
+    gap:50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav div ul li:hover{
+    color:tomato;
+}
+nav div a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    font-weight: bold;
+    background-color: #30B868;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+nav div a:hover{
+    background:#48cc7f;
+}
+
+
+.banner{
+    height: 480px;
+    background-image:url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    padding-top: 100px;
+}
+.banner .container{
+    width: 800px;
+    text-align: center;
+    margin:0 auto;
+}
+.banner .container .p1{
+    color:green;
+    background-color: whitesmoke;
+    width: 200px;
+    padding: 3px;
+    margin:0 auto;
+    border-radius: 20px;
+}
+.banner .container h1{
+    color:white;
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner .container h2{
+    color:#30B868;
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner .container .p2{
+    color:rgb(224, 222, 222);
+    font-size: 17px;
+    font-weight:500;
+    margin-bottom: 50px;
+}
+.banner .container button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 14px;
+    border:none;
+    border-radius: 5px;
+    margin-right: 20px;
+    color:rgb(247, 245, 245);
+}
+.banner .container .btn-Start{
+    background-color: #30B868;
+}
+.banner .container .btn-Start:hover{
+background-color:#1a7c43;
+}
+.banner .container .btn-SeeW{
+    background: none;
+    border: 1px solid;
+}
+.banner .container .btn-SeeW:hover{
+    background-color: rgb(94, 117, 94);
+}
