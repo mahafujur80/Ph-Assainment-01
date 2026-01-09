@@ -3,7 +3,12 @@
     padding: 0;
 }
 body{
-    
+    font-family: "Poppins", sans-serif;
+}
+header{
+    position:sticky;
+    top:0;
+    z-index: 1000;
 }
 nav{
     height: 80px;
@@ -16,7 +21,7 @@ nav div ul{
     display: flex;
     list-style: none;
     gap:50px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
 }
 nav div ul li:hover{
@@ -25,14 +30,14 @@ nav div ul li:hover{
 nav div a{
     text-decoration: none;
     color:white;
-    font-size:20px;
+    font-size:15px;
     font-weight: bold;
     background-color: #30B868;
     padding: 10px 20px;
     border-radius: 10px;
 }
 nav div a:hover{
-    background:#48cc7f;
+    background:#108340;
 }
 
 
@@ -51,6 +56,7 @@ nav div a:hover{
 }
 .banner .container .p1{
     color:green;
+    font-size: 13px;
     background-color: whitesmoke;
     width: 200px;
     padding: 3px;
@@ -59,22 +65,22 @@ nav div a:hover{
 }
 .banner .container h1{
     color:white;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
 }
 .banner .container h2{
     color:#30B868;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
 }
 .banner .container .p2{
     color:rgb(224, 222, 222);
-    font-size: 17px;
+    font-size: 14px;
     font-weight:500;
     margin-bottom: 50px;
 }
 .banner .container button{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     padding: 8px 14px;
     border:none;
@@ -108,11 +114,11 @@ background-color:#1a7c43;
     padding-top: 50px;
 }
 .container-box .note-text h2{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
 }
 .container-box .note-text p{
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 500;
     color:rgba(0, 0, 0, 0.726);
 }
@@ -129,9 +135,12 @@ background-color:#1a7c43;
     margin-bottom: 10px;
 }
 .cards div h2{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bolder;
     margin-bottom: 10px;
+}
+.cards div p{
+    font-size: 14px;
 }
 .cards div{
     width: 260px;
@@ -155,19 +164,20 @@ background-color:#1a7c43;
     width: 500px;
 }
 .container-box .brain-str .knowledge-text{
-    width: 400px;
+    width: 450px;
 }
 .container-box .brain-str .knowledge-text h3{
     color:#30B868;
     margin-bottom: 10px;
 }
 .container-box .brain-str .knowledge-text h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 .container-box .brain-str .knowledge-text p{
     margin-top: 20px;
     color:rgba(0, 0, 0, 0.76);
     margin-bottom: 20px;
+    font-size: 15px;
 }
 .container-box .brain-str .knowledge-text ul img{
     width: 15px;
@@ -178,6 +188,7 @@ align-items: center;
 gap:10px; 
 line-height: 30px;
 font-weight: bold;
+font-size: 14px;
 }
 
 
@@ -185,6 +196,7 @@ font-weight: bold;
 .container-box .all-content{
     width: 100%;
     height: 300px;
+    padding: 20px 0;
     background-color: rgb(235, 231, 231);
     border-radius: 10px;
     margin-bottom: 70px;
@@ -198,11 +210,11 @@ font-weight: bold;
 }
 .container-box .think-text h1{
  font-weight: bolder;
- font-size: 40px;
+ font-size: 35px;
 }
 .container-box .think-text p{
    color: rgba(0, 0, 0, 0.575);
-   margin: 20px 0;
+   margin: 14px 0;
 }
 .container-box .think-text a{
     display: flex;
@@ -214,6 +226,7 @@ font-weight: bold;
     background-color: #30B868;
     color: white;
     font-weight: bold;
+    font-size: 14px;
     padding: 10px 15px;
     border-radius: 8px;
 }
@@ -235,13 +248,13 @@ footer .footer-content{
 }
 footer .footer-content h2{
     color:white;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 footer .footer-content i{
     margin-right: 10px;
     color:white;
-    font-size: 25px;
+    font-size: 20px;
 }
 footer .footer-content i:hover{
     color:tomato;
@@ -256,4 +269,5 @@ footer p{
     margin-top: 50px;
     color:rgb(187, 184, 184);
     text-align: center;
+    font-size: 13px;
 }
