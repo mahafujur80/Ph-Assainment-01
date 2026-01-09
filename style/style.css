@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(224, 220, 220);
+    
 }
 nav{
     height: 80px;
@@ -101,7 +101,6 @@ background-color:#1a7c43;
     width: 85%;
     margin: 0  auto;
 }
-
 .container-box .note-text{
     width: 700px;
     margin: 0 auto;
@@ -144,3 +143,40 @@ background-color:#1a7c43;
 .cards div:hover{
     background: #8decb5;
 }
+
+
+.container-box .brain-str{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.container-box .brain-str div img{
+    width: 500px;
+}
+.container-box .brain-str .knowledge-text{
+    width: 400px;
+}
+.container-box .brain-str .knowledge-text h3{
+    color:#30B868;
+    margin-bottom: 10px;
+}
+.container-box .brain-str .knowledge-text h1{
+    font-size: 40px;
+}
+.container-box .brain-str .knowledge-text p{
+    margin-top: 20px;
+    color:rgba(0, 0, 0, 0.76);
+    margin-bottom: 20px;
+}
+.container-box .brain-str .knowledge-text ul img{
+    width: 15px;
+}
+.container-box .brain-str .knowledge-text li{
+display: flex;
+align-items: center;
+gap:10px; 
+line-height: 30px;
+font-weight: bold;
+}
+
